@@ -1,2 +1,36 @@
 # bash-alaises
-my aliases for git bash
+my aliases for git bash 
+enjoy
+
+#aliases
+alias pa='php artisan'
+alias pas='php artisan serve'
+alias pam='php artisan migrate'
+alias pamf='php artisan migrate:fresh'
+alias pamm='php artisan make:migration'
+alias model='php artisan make:model'
+alias control='php artisan make:controller'
+alias policy='php artisan make:policy'
+alias middleware='php artisan make:middleware'
+alias route='php artisan route:list'
+alias fix='git add . && git commit -m “fix” && git pull && git push'
+alias gs='git status'
+alias ni='npm install'
+alias wat='npm run watch'
+alias prod='npm run prod'
+alias cr='composer require'
+alias add='git add .'
+alias pull='git pull'
+alias push='git push'
+alias com='git commit -m'
+alias seed='php artisan db:seed'
+alias dump='composer dump-autoload'
+alias ci='composer install'
+alias tseed='php artisan tenants:seed'
+alias tpam='php artisan tenants:migrate'
+alias key='php artisan key:generate'
+alias request='php artisan make:request'
+alias seeder='php artisan make:seeder'
+alias clear='php artisan optimize:clear'
+alias optimize='php artisan optimize'
+
